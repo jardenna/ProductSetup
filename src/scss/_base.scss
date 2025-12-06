@@ -17,14 +17,13 @@ body {
   font-size: rem(16px);
 }
 
-h1 {
-  font-size: rem(32px);
+h1,
+h2,
+h3 {
   font-family: $font-primary-bold;
+  margin: 0;
 }
 
-.main-container {
-  margin: 0;
-  height: 100%;
-  display: grid;
-  grid-template-rows: max-content 1fr;
+h1 {
+  font-size: rem(32px);
 }
