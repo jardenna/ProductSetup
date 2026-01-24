@@ -1,3 +1,22 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React/Typescript working in Vite with linting and type checking.
+Minimal React + TypeScript setup powered by **Vite** with:
+
+- ESLint (Flat config)
+- Accessibility linting (**jsx-a11y**)
+- Import sorting and consistent formatting
+- Stylelint for **SCSS**
+- Type checking
+
+## Requirements
+
+- Node.js (LTS recommended)
+- npm
+
+## Getting started
+
+Install dependencies:
+
+```bash
+npm install
+```
