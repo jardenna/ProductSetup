@@ -1,5 +1,3 @@
-const ParamsPage = () => {
-  return <section></section>;
-};
+const ParamsPage = () => <section />;
 
 export default ParamsPage;
