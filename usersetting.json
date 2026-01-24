@@ -10,8 +10,6 @@
   "typescript.validate.enable": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "git.enableSmartCommit": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
   "workbench.iconTheme": "material-icon-theme",
   "files.exclude": {
     "**/.vscode": true
@@ -44,8 +42,6 @@
   "hediet.vscode-drawio.resizeImages": null,
   "typescript.format.semicolons": "insert",
   "reactSnippets.settings.prettierEnabled": true,
-  "prettier.configPath": ".prettierrc",
-
   "eslint.rules.customizations": [],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,7 +67,6 @@
     "scminput": false,
     "typescriptreact": true
   },
-  "editor.tabSize": 2,
   "diffEditor.ignoreTrimWhitespace": false,
   "gitlens.launchpad.indicator.enabled": false
 }
