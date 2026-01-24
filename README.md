@@ -28,3 +28,40 @@ Install dependencies:
 ```bash
 npm install
 ```
+
+---
+
+## Development
+
+Start the dev server:
+
+```bash
+npm start
+
+```
+
+## Build
+
+Build the project for production:
+
+```bash
+npm run build
+
+```
+
+## Fix Lint (ESLint)
+
+Run ESLint and automatically fix issues:
+
+```bash
+npm run lint:fix
+
+```
+
+## Fix StyleLint
+
+Run Stylelint and automatically fix SCSS issues:
+
+```bash
+npm run stylelint:fix
+```
