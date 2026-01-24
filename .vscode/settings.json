@@ -21,7 +21,7 @@
     "typescript",
     "typescriptreact"
   ],
-  "eslint.format.enable": true,
+  "eslint.format.enable": false,
 
   "stylelint.validate": ["css", "scss"]
 }
