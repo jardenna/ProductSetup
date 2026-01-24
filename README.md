@@ -1,21 +1,19 @@
 # React + TypeScript + Vite
 
-Minimal React + TypeScript setup powered by **Vite** with:
+Minimal React + TypeScript project powered by **Vite** with:
 
 - ESLint (Flat config)
-- Accessibility linting (**jsx-a11y**)
-- Import sorting and consistent formatting
+- Accessibility linting (**eslint-plugin-jsx-a11y**)
+- Prettier formatting
 - Stylelint for **SCSS**
-- Type checking
+- Type checking (TypeScript)
 
 ## Requirements
 
 - Node.js (LTS recommended)
 - npm
 
-## Getting started
-
-Install dependencies:
+## Install
 
 ```bash
 npm install
