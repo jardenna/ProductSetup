@@ -90,6 +90,7 @@ export default defineConfig(
       '@typescript-eslint/no-base-to-string': 'off',
       '@typescript-eslint/no-unsafe-call': 'off',
       'object-shorthand': ['error', 'always'],
+      'import/prefer-default-export': 'warn',
       'import/no-extraneous-dependencies': [
         'error',
         {
@@ -164,7 +165,7 @@ export default defineConfig(
       'react/jsx-no-useless-fragment': 'error',
       'prefer-template': 'error',
       'react/no-did-update-set-state': 'warn',
-      // 'class-methods-use-this': 'off',
+      'react/no-unused-prop-types': 'error',
       'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
       'react/no-direct-mutation-state': 1,
       'no-nested-ternary': 'warn',
@@ -183,7 +184,6 @@ export default defineConfig(
           allowFunctions: true,
         },
       ],
-      'import/prefer-default-export': 'warn',
       'jsx-a11y/html-has-lang': ['error'],
       'jsx-a11y/aria-role': ['error'],
       'jsx-a11y/aria-unsupported-elements': ['error'],
@@ -220,6 +220,12 @@ export default defineConfig(
           depth: 4,
         },
       ],
+    },
+  },
+  {
+    files: ['**/*.ts'],
+    rules: {
+      'import/prefer-default-export': 'off',
     },
   },
 );
